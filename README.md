@@ -56,3 +56,6 @@ $ howhow open
 ## Related
 - [what-to-eat](https://github.com/WeiChiaChang/what-to-eat)
 - [wcj](https://github.com/jaywcjlove/wcj)
+
+## License
+MIT © [WeiChiaChang](https://github.com/WeiChiaChang)
