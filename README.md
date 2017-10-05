@@ -10,7 +10,7 @@
 
 ## Usage
 
-在 iterm 上做全域安裝
+在 iterm 上做全域安裝
 ```shell
 $ npm i howhow -g
 ```
