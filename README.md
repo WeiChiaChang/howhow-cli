@@ -26,7 +26,7 @@ $ howhow
 https://youtu.be/HM3PnOEJ1jI?t=30s
 ```
 
-還可以從 terminal 直接進入業配頻道！男人就是要簡單！直白！
+還可以從 terminal 直接進入業配頻道！[男人就是要簡單！直白！](https://www.youtube.com/watch?v=cruXUtlOdTU)
 ```shell
 $ howhow open
 ```
@@ -47,7 +47,7 @@ https://youtu.be/HM3PnOEJ1jI?t=30s
 
 Show version
 $ howhow -v
-version is 1.0.80
+version is 1.0.82
 
 Open howhow youtube channel with Google Chrome
 $ howhow open

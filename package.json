@@ -1,6 +1,6 @@
 {
   "name": "howhow",
-  "version": "1.0.80",
+  "version": "1.0.82",
   "description": "howhow command line tool",
   "main": "index.js",
   "scripts": {
