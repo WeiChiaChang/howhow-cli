@@ -1,5 +1,6 @@
 #!/usr/bin/env node  
-let fs = require("fs");
+const fs = require("fs");
+const meow = require('meow');
 
 let quotes = {
     "howhow": [
@@ -14,12 +15,22 @@ let getRandomInt = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+
+const cli = meow(`
+    Examples
+
+    $ howhow
+    喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
+
+    $ howhow -v
+    version is 1.0.30
+`);
+
 let run = function (obj) {
     if (obj[0] === '-v') {
         console.log('version is 1.0.26');
-    } else if (obj[0] === '-h') {
-        console.log('Usage:');
-        console.log('  -v [show version]');
+    } else if (obj[0] === '--help') {
+        console.log(cli);
     } else {
         console.log(quotes.howhow[getRandomInt(0, quotes.howhow.length - 1)]);
     };
