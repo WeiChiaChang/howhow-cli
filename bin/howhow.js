@@ -35,6 +35,7 @@ const cli = meow(`
     Examples
     $ howhow
     喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
+    https://youtu.be/HM3PnOEJ1jI?t=30s
 
 
     Show version

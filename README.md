@@ -10,14 +10,19 @@
 
 ## Usage
 
-在 iterm 上安裝
+在 iterm 上做全域安裝
 ```shell
 $ npm i howhow -g
 ```
 
+快來試試你的 `how` 手氣ㄅ～
+```shell
+$ howhow
+```
+
 相關操作可以在後頭加上 `-h` 參數
 ```shell
-howhow -h
+$ howhow -h
 ```
 
 指示就會跳出～
