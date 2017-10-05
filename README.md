@@ -18,14 +18,15 @@ howhow --help
   howhow command line tool
 
   Examples
-
   $ howhow
   喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
 
   Show version
-
   $ howhow -v
   version is 1.0.52
+
+  Open howhow youtube channel with Google Chrome
+  $ howhow open
 ```
 
 ## Related
