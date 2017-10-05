@@ -8,9 +8,9 @@
 $ npm i howhow -g
 ```
 
-相關操作可以在後頭加上 `--help` 參數
+相關操作可以在後頭加上 `-h` 參數
 ```shell
-howhow --help
+howhow -h
 ```
 
 指示就會跳出～
