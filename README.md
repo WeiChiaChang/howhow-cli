@@ -47,7 +47,7 @@ https://youtu.be/HM3PnOEJ1jI?t=30s
 
 Show version
 $ howhow -v
-version is 1.0.64
+version is 1.0.66
 
 Open howhow youtube channel with Google Chrome
 $ howhow open

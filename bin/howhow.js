@@ -10,7 +10,8 @@ let quotes = {
       {"J 格是 ... 大人的味道！！！": "https://youtu.be/gT8E13JkiKM?t=24s"}, 
       {"媽媽的零用錢 25 元！！喔喔～剛好可以買一罐茶之初喔～": "https://youtu.be/oxnHDXPIfCg?t=50s"},
       {"你是在供，三小。": "https://youtu.be/x-eXgAIISJU?t=1m4s"}, 
-      {"可 ... 可惡": "https://youtu.be/MHYigqibzUw?t=31s"}, 
+      {"可 ... 可惡": "https://youtu.be/MHYigqibzUw?t=31s"},
+      {"呱吉爆雷王，呱吉吃大便～": "https://youtu.be/lXQvJ0-U2_s?t=2m40s"}, 
       {"嗯？你說原本要找金城武，但發現找我好像也有同樣的效果？齁喔？": "https://youtu.be/OXW7S-elkOc?t=8s"},
       {"看！陳孜昊你北七喔！": "https://youtu.be/QCi1OpD-QeE?t=20s"}, 
       {"你還是進監獄裡好好反省吧！": "https://youtu.be/r4pbqBpl1lc?t=50s"}, 
@@ -40,7 +41,7 @@ const cli = meow(`
 
     Show version
     $ howhow -v
-    version is 1.0.64
+    version is 1.0.66
 
 
     Open howhow youtube channel with Google Chrome
