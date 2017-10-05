@@ -80,7 +80,7 @@ const cli = meow(`
 
     Show version
     $ howhow -v
-    version is 1.0.74
+    version is 1.0.76
 
 
     Open howhow youtube channel with Google Chrome
@@ -99,6 +99,8 @@ let run = function (obj) {
         opn('https://www.youtube.com/user/jasonjason1124', {app: 'google chrome'});
     } else if (obj[0] === 'ted') {
         opn('https://www.youtube.com/watch?v=75P2sG7Fk9k', {app: 'google chrome'});
+    }  else if (obj[0] === 'github') {
+        opn('https://github.com/WeiChiaChang/howhow-cli', {app: 'google chrome'});
     } else {
         let random_quotes = quotes.howhow[getRandomInt(0, quotes.howhow.length - 1)];
         console.log(chalk.cyan(Object.keys(random_quotes)[0]));
