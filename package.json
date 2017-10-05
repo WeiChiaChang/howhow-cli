@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "howhow"
+    "howhow",
+    "howhow-cli"
   ],
   "repository": "weichiachang/howhow-cli",
   "bin": {
