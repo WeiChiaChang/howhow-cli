@@ -27,13 +27,14 @@ const cli = meow(`
     喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
 
     Show version
+
     $ howhow -v
-    version is 1.0.34
+    version is 1.0.36
 `);
 
 let run = function (obj) {
     if (obj[0] === '-v') {
-        console.log('version is 1.0.34');
+        console.log('version is 1.0.36');
     } else if (obj[0] === '--help') {
         console.log(cli);
     } else {

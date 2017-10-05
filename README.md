@@ -21,9 +21,11 @@ howhow --help
 
   $ howhow
   喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
+  
+  Show version
 
   $ howhow -v
-  version is 1.0.30
+  version is 1.0.36
 ```
 
 ## Related
