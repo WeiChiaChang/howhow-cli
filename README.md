@@ -22,18 +22,19 @@ howhow -h
 
 指示就會跳出～
 ```shell
-  howhow command line tool
+howhow command line tool
 
-  Examples
-  $ howhow
-  喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
+Examples
+$ howhow
+喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
+https://youtu.be/HM3PnOEJ1jI?t=30s
 
-  Show version
-  $ howhow -v
-  version is 1.0.64
+Show version
+$ howhow -v
+version is 1.0.64
 
-  Open howhow youtube channel with Google Chrome
-  $ howhow open
+Open howhow youtube channel with Google Chrome
+$ howhow open
 ```
 
 ## Related
