@@ -23,7 +23,7 @@ howhow -h
 
   Show version
   $ howhow -v
-  version is 1.0.52
+  version is 1.0.54
 
   Open howhow youtube channel with Google Chrome
   $ howhow open

@@ -1,6 +1,6 @@
 {
   "name": "howhow",
-  "version": "1.0.52",
+  "version": "1.0.54",
   "description": "howhow command line tool",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "author": "weichiachang",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.1.0",
     "meow": "^3.7.0",
     "opn": "^5.1.0"
   }
