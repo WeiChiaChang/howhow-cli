@@ -20,6 +20,12 @@ $ npm i howhow -g
 $ howhow
 ```
 
+你專屬的每日一 `how` 句子就這樣產生了呢，用 Mac 的朋友加上 `command` 按鍵後連結就可以按了喔喔～
+```shell
+喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
+https://youtu.be/HM3PnOEJ1jI?t=30s
+```
+
 相關操作可以在後頭加上 `-h` 參數
 ```shell
 $ howhow -h
