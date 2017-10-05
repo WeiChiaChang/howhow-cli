@@ -35,13 +35,13 @@ const cli = meow(`
     Show version
 
     $ howhow -v
-    version is ${VERSION}
+    version is 1.0.50
 `);
 
 let run = function (obj) {
     if (obj[0] === '-v') {
         console.log(`version is ${VERSION}`);
-    } else if (obj[0] === '--help') {
+    } else if (obj[0] === '-h') {
         console.log(cli.help);
     } else {
         console.log(quotes.howhow[getRandomInt(0, quotes.howhow.length - 1)]);
