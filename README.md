@@ -1,6 +1,13 @@
 # howhow-cli
 竟然連 terminal 都開始業配了嗎？ 可 ... 可惡！
 
+
+<p align="center">
+  <a target="_blank" href="https://github.com/WeiChiaChang/howhow-cli">
+    <img alt="howhow" src="https://i.imgur.com/80Ps9WJ.gif">
+  </a>
+</p>
+
 ## Usage
 
 在 iterm 上安裝
