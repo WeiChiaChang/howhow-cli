@@ -26,7 +26,12 @@ $ howhow
 https://youtu.be/HM3PnOEJ1jI?t=30s
 ```
 
-相關操作可以在後頭加上 `-h` 參數
+還可以從 terminal 直接進入業配頻道！男人就是要簡單！直白！
+```shell
+$ howhow open
+```
+
+進一步的相關操作可以在後頭加上 `-h` 參數
 ```shell
 $ howhow -h
 ```
