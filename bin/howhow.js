@@ -80,7 +80,7 @@ const cli = meow(`
 
     Show version
     $ howhow -v
-    version is 1.0.76
+    version is 1.0.78
 
 
     Open howhow youtube channel with Google Chrome
@@ -88,6 +88,9 @@ const cli = meow(`
 
     See howhow on TED Talk
     $ howhow ted
+
+    Source code of this side project
+    $ howhow github
 `);
 
 let run = function (obj) {
