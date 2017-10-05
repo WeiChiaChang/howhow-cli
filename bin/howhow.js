@@ -24,6 +24,7 @@ let getRandomInt = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+const VERSION = meow().pkg.version
 
 const cli = meow(`
     Examples
@@ -34,14 +35,14 @@ const cli = meow(`
     Show version
 
     $ howhow -v
-    version is 1.0.38
+    version is ${VERSION}
 `);
 
 let run = function (obj) {
     if (obj[0] === '-v') {
-        console.log('version is 1.0.38');
+        console.log(`version is ${VERSION}`);
     } else if (obj[0] === '--help') {
-        console.log(cli);
+        console.log(cli.help);
     } else {
         console.log(quotes.howhow[getRandomInt(0, quotes.howhow.length - 1)]);
     };
