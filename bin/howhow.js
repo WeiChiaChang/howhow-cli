@@ -1,6 +1,8 @@
 #!/usr/bin/env node  
 const fs = require("fs");
 const meow = require('meow');
+const opn = require('opn');
+const VERSION = meow().pkg.version
 
 let quotes = {
     "howhow": [
@@ -24,8 +26,6 @@ let getRandomInt = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-const VERSION = meow().pkg.version
-
 const cli = meow(`
     Examples
 
@@ -35,7 +35,7 @@ const cli = meow(`
     Show version
 
     $ howhow -v
-    version is 1.0.50
+    version is 1.0.52
 `);
 
 let run = function (obj) {
@@ -43,6 +43,8 @@ let run = function (obj) {
         console.log(`version is ${VERSION}`);
     } else if (obj[0] === '-h') {
         console.log(cli.help);
+    } else if (obj[0] === 'open') {
+        opn('https://www.youtube.com/user/jasonjason1124', {app: 'google chrome'});
     } else {
         console.log(quotes.howhow[getRandomInt(0, quotes.howhow.length - 1)]);
     };

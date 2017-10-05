@@ -25,7 +25,7 @@ howhow --help
   Show version
 
   $ howhow -v
-  version is 1.0.50
+  version is 1.0.52
 ```
 
 ## Related
