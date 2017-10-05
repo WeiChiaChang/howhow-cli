@@ -2,7 +2,13 @@
 let fs = require("fs"),
     path = process.cwd();
 
-let quotes = JSON.parse(fs.readFileSync('../src/quotes.json', 'utf8'));
+let quotes = {
+    "howhow": [
+      "J 個是～", "更！陳孜昊你北七喔！", "你還是進監獄裡好好反省吧！",
+      "喂？小明啊 回家粗喚啦", "昊昊啊 緊來呷水果～", "喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！",
+      "要到了學妹的臉書，可是為什麼我要上線她就下線了 可...可惡！"
+    ]
+};
 // console.log(quotes);
 
 let getRandomInt = (min, max) => {
