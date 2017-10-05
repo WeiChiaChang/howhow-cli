@@ -8,6 +8,7 @@ const VERSION = meow().pkg.version
 let quotes = {
     "howhow": [
       {"J 格是 ... 大人的味道！！！": "https://youtu.be/gT8E13JkiKM?t=24s"}, 
+      {"最新鮮早上才到港的鯛魚，精湛的刀工，最重要的是用冰刀去處理，來了！": "https://youtu.be/lyHm6y8X42A?t=1m29s"}, 
       {"齁～我要告老師～": "https://youtu.be/gruBdVkxzMY?t=4s"}, 
       {"喔～～～": "https://youtu.be/L3yTPkBtFlw?t=1m14s"}, 
       {"媽媽的零用錢 25 元！！喔喔～剛好可以買一罐茶之初喔～": "https://youtu.be/oxnHDXPIfCg?t=50s"},
@@ -43,7 +44,7 @@ const cli = meow(`
 
     Show version
     $ howhow -v
-    version is 1.0.68
+    version is 1.0.70
 
 
     Open howhow youtube channel with Google Chrome
