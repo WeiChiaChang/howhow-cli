@@ -20,7 +20,7 @@ $ npm i howhow -g
 $ howhow
 ```
 
-你專屬的每日一 `how` 句子就這樣產生了呢，用 Mac 的朋友加上 <kbd>command</kbd> 按鍵後連結就可以按了喔喔～
+每日一 `how` 就這樣產生了呢，用 Mac 的朋友加上 <kbd>command</kbd> 按鍵後 URL 就可以按了喔喔！
 ```shell
 喔喔喔喔喔喔喔原來是旺梨小鎮的土鳳梨酥啊！
 https://youtu.be/HM3PnOEJ1jI?t=30s
@@ -47,7 +47,7 @@ https://youtu.be/HM3PnOEJ1jI?t=30s
 
 Show version
 $ howhow -v
-version is 1.0.78
+version is 1.0.80
 
 Open howhow youtube channel with Google Chrome
 $ howhow open
@@ -62,6 +62,7 @@ $ howhow github
 ## Related
 - [what-to-eat](https://github.com/WeiChiaChang/what-to-eat)
 - [wcj](https://github.com/jaywcjlove/wcj)
+- [howhow](https://www.youtube.com/user/jasonjason1124)
 
 ## License
 MIT © [WeiChiaChang](https://github.com/WeiChiaChang)
