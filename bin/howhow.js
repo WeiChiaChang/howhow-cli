@@ -1,6 +1,5 @@
 #!/usr/bin/env node  
-let fs = require("fs"),
-    path = process.cwd();
+let fs = require("fs");
 
 let quotes = {
     "howhow": [
@@ -17,10 +16,10 @@ let getRandomInt = (min, max) => {
 
 let run = function (obj) {
     if (obj[0] === '-v') {
-        console.log('version is 1.0.0');
+        console.log('version is 1.0.26');
     } else if (obj[0] === '-h') {
         console.log('Usage:');
-        console.log('  -v --version [show version]');
+        console.log('  -v [show version]');
     } else {
         console.log(quotes.howhow[getRandomInt(0, quotes.howhow.length - 1)]);
     };
