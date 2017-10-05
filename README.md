@@ -47,10 +47,13 @@ https://youtu.be/HM3PnOEJ1jI?t=30s
 
 Show version
 $ howhow -v
-version is 1.0.72
+version is 1.0.74
 
 Open howhow youtube channel with Google Chrome
 $ howhow open
+
+See howhow on TED Talk
+$ howhow ted
 ```
 
 ## Related
