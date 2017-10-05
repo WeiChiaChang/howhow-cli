@@ -4,7 +4,7 @@
 
 <p align="center">
   <a target="_blank" href="https://github.com/WeiChiaChang/howhow-cli">
-    <img alt="howhow" src="https://i.imgur.com/80Ps9WJ.gif">
+    <img alt="howhow" src="https://i.imgur.com/6ImP8Ff.gif">
   </a>
 </p>
 
