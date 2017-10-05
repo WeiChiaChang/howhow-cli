@@ -5,6 +5,11 @@ const meow = require('meow');
 let quotes = {
     "howhow": [
       "J 個是～", 
+      "哼，太天真了",
+      "ㄅㄅ",
+      "你是在供，三小。",
+      "欸不，等等",
+      "且慢",
       "更！陳孜昊你北七喔！", 
       "你還是進監獄裡好好反省吧！",
       "喂？小明啊～回家粗喚啦～", 
@@ -29,12 +34,12 @@ const cli = meow(`
     Show version
 
     $ howhow -v
-    version is 1.0.36
+    version is 1.0.38
 `);
 
 let run = function (obj) {
     if (obj[0] === '-v') {
-        console.log('version is 1.0.36');
+        console.log('version is 1.0.38');
     } else if (obj[0] === '--help') {
         console.log(cli);
     } else {
