@@ -7,7 +7,43 @@ const VERSION = meow().pkg.version
 
 let quotes = {
     "howhow": [
-      {"J 格是 ... 大人的味道！！！": "https://youtu.be/gT8E13JkiKM?t=24s"}, 
+      {"J 格是 ... 大人的味道！！！": "https://youtu.be/gT8E13JkiKM?t=24s"},
+      {"你擔心你的髮線越來越高嘛？": "https://youtu.be/mX0zftdV_YY"},
+      {"不會下雨啦～下雨我剃光頭": "https://youtu.be/uq2rnYHYkm4?t=2s"}, 
+      {"Gogoro？............水啦": "https://youtu.be/1mogGtuM4yU?t=6s"}, 
+      {"啃！要做就要做好做滿啊！": "https://youtu.be/HBttCr5H-V4?t=12s"}, 
+      {"克寧奶粉 ... 踢足球 ... 席丹 ... 席丹是法國人 ... 法國人 ... 法國倫 ... 黃國倫 ... 黃國倫老婆是寇乃馨 ... 康乃馨！": "https://www.youtube.com/watch?v=y_RSpoXT1LM"}, 
+      {"我的阿嬤逆啊～～": "https://youtu.be/9xXboTLZ1R0?t=37s"}, 
+      {"我埋的。是對未來。塵封的期許。": "https://youtu.be/Rf-wZfPtPss?t=18s"}, 
+      {"種子種子，種子種子種子，種子，種子種子種子種子種子": "https://youtu.be/NN9LaU2NlLM"}, 
+      {"直播伯伯剝橘子": "https://youtu.be/6Tz1A2FiRdo?t=7s"}, 
+      {"啊啊啊啊～ 我好興奮 R～～": "https://youtu.be/XzQhdyJqXrE?t=2s"}, 
+      {"很臭，走開": "https://youtu.be/mk6RX20Zz00?t=1m4s"}, 
+      {"抱歉，你是誰啊？": "https://youtu.be/mk6RX20Zz00?t=4m46s"}, 
+      {"其實我寄貨的時候很粗心，我不小心把我住信義區 80 坪的地契影本，還有我開 Maserati 的時候，我朋友幫我拍的拍立得照片留在口袋": "https://youtu.be/fqfdtEaR3aI?t=18s"}, 
+      {"他才不是什麼恐龍裝啊！他是嗶之助啊！": "https://youtu.be/gax2FoEvNiY?t=50s"},
+      {"想想快絕種的北極熊吧，想想正在洗澡的雞排妹吧 ... 嘶 ...": "https://youtu.be/4p6idASFZ4Q?t=1m4s"},
+      {"大家一起賺五億，大家一起把朋友拉進購物社團吧～！": "https://youtu.be/H6cOUWePs2o?t=1m18s"}, 
+      {"嗶你妹個悠遊卡啦": "https://youtu.be/gax2FoEvNiY?t=54s"}, 
+      {"粗獷，到底是念粗 ㄍㄨㄤˇ 還是粗 ㄎㄨㄤˋ ？": "https://youtu.be/arqfJjOXr1M?t=58s"}, 
+      {"不拖泥帶水！直接進入業配主題～！": "https://youtu.be/3WMnPid4ItY?t=6s"}, 
+      {"嘿嘿嘿嘿，腹黑屋老闆你，你也挺壞的嘛～": "https://youtu.be/0o27JM6Foqk?t=20s"}, 
+      {"不會動的手錶，一天至少會對 ... 兩次 ...！": "https://youtu.be/t5_yCcH9Gbs?t=42s"}, 
+      {"你幹話也蠻多的嗎～": "https://youtu.be/SFdO_BOJR8c?t=1m4s"}, 
+      {"你才禿頭啦！！你全家都禿頭啦！！": "https://youtu.be/E9zWRgLyBvA?t=16s"}, 
+      {"你沒有妹妹": "https://youtu.be/yugMf7YLWMg?t=58s"}, 
+      {"我們一起看夜景，出遊，撿肥皂，這些，都是假的嗎？？": "https://youtu.be/RjN0qIDJ7Cg?t=1m23s"}, 
+      {"不是長的像金城武的病啦，那個已經是絕症了": "https://youtu.be/B7BRiuQpo4g?t=2s"}, 
+      {"J 三 ... 小": "https://youtu.be/ca5s_atUEqo?t=1m23s"}, 
+      {"這 ... 阿伯也包太大包了吧！不是阿伯下面一大包，是阿伯的紅包啊！！": "https://youtu.be/7GazAryr-2U?t=4s"}, 
+      {"誒，你看我下面這一大包 ...... 衛生紙啦～": "https://youtu.be/J8KiAifnKcU?t=1m1s"}, 
+      {"haohao 啊～緊來呷水果喔～": "https://youtu.be/Y3Hg52ndjhk?t=40s"}, 
+      {"現在時間，洞五三洞，安全士官請部隊起床～": "https://youtu.be/ahtHt4P4bLU?t=1m28s"}, 
+      {"討厭，你在想色色的事情對吧～": "https://youtu.be/6SaIoFI41is?t=40s"}, 
+      {"喔Ｘ！ 爸的！": "https://youtu.be/Y3Hg52ndjhk?t=3s"}, 
+      {"四郎，幫我開火！...差點忘記我沒朋友": "https://youtu.be/n5H6fwhN2G8?t=28s"}, 
+      {"況且那天 ... 我只是經過內衣店而已 ...": "https://youtu.be/-SWj9RxmMJg?t=12s"}, 
+      {"於是我就很高興的走過去用皮卡丘語跟他說，皮卡皮卡，然後他就跟我說，哩洗勒公殺洨啦耖零呆。": "https://youtu.be/x747xuzG3Yo?t=4s"}, 
       {"最新鮮早上才到港的鯛魚，精湛的刀工，最重要的是用冰刀去處理，來了！": "https://youtu.be/lyHm6y8X42A?t=1m29s"}, 
       {"齁～我要告老師～": "https://youtu.be/gruBdVkxzMY?t=4s"}, 
       {"喔～～～": "https://youtu.be/L3yTPkBtFlw?t=1m14s"}, 
@@ -44,7 +80,7 @@ const cli = meow(`
 
     Show version
     $ howhow -v
-    version is 1.0.70
+    version is 1.0.72
 
 
     Open howhow youtube channel with Google Chrome
