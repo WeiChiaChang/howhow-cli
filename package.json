@@ -4,6 +4,8 @@
   "description": "howhow command line tool",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src -d bin",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,8 +19,14 @@
   "author": "weichiachang",
   "license": "MIT",
   "dependencies": {
+    "babel-runtime": "^6.26.0",
     "chalk": "^2.1.0",
     "meow": "^3.7.0",
     "opn": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0"
   }
 }
