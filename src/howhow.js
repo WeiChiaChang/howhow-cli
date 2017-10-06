@@ -80,7 +80,7 @@ const cli = meow(`
 
     Show version
     $ howhow -v
-    version is 1.0.84
+    version is 1.0.86
 
 
     Open howhow youtube channel with Google Chrome
