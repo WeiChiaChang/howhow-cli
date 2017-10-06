@@ -31,6 +31,11 @@ https://youtu.be/HM3PnOEJ1jI?t=30s
 $ howhow open
 ```
 
+什 ... 什麼？ 竟然連 TED 都業配了 ... ？
+```shell
+$ howhow ted
+```
+
 進一步的相關操作可以在後頭加上 `-h` 參數
 ```shell
 $ howhow -h
@@ -47,7 +52,7 @@ https://youtu.be/HM3PnOEJ1jI?t=30s
 
 Show version
 $ howhow -v
-version is 1.0.82
+version is 1.0.84
 
 Open howhow youtube channel with Google Chrome
 $ howhow open
