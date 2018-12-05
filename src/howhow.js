@@ -63,7 +63,8 @@ let quotes = {
       {"騙你的啦，我根本沒穿內褲喔！喔！差點就被你騙了呢！": "https://www.youtube.com/watch?v=YXb800paJhw"}, 
       {"孔雀餅乾，掉在地上七秒之內撿起來，更好吃": "https://www.youtube.com/watch?v=cnIELUaDgiA"},
       {"沒...沒關係我懂了，沒有控肉便當沒關係，我的車馬費再用 ATM 轉帳給我就好了，到提款機的時候，換成英文介面再打給 ...": "https://youtu.be/8xafeXzWzn4?t=1m30s"},
-      {"想要一起加入 How 哥宇宙嗎？": "https://youtu.be/DSYLan4xT8s?t=1m25s"}
+      {"想要一起加入 How 哥宇宙嗎？": "https://youtu.be/DSYLan4xT8s?t=1m25s"},
+      {"第一次求婚，好緊張", "https://www.youtube.com/watch?v=A8Z8dEJ8YPo"}
     ]
 };
 // console.log(quotes);
