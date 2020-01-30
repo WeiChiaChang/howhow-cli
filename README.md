@@ -68,6 +68,7 @@ $ howhow github
 - [what-to-eat](https://github.com/WeiChiaChang/what-to-eat)
 - [wcj](https://github.com/jaywcjlove/wcj)
 - [howhow](https://www.youtube.com/user/jasonjason1124)
+- [讓 HOW 哥教教你如何自然的露出微笑 | Let me tell you HOW to smile.](https://github.com/WeiChiaChang/how.smile)
 
 ## Donate
 
